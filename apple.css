@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* i{
+    font-size: 0.7rem;
+}
+* a{
+    font-size: 23px;
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    background-color: hsla(240, 2%, 9%, 0.966);
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ul {
+    color: rgb(250, 235, 215);    
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    line-height: 6px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    background-image: url('./assets/macbook.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border:2px solid white;
+    width: 100%;
+    height: 646px;
+    flex-wrap: wrap;
+    padding: 0;
+    cursor: pointer;
+}
+
+.pak1 {
+    padding-top: 15px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    flex-wrap: wrap;
+}
+
+.pp{
+    font-size: 35px;
+}
+
+.box-2 {
+    background-image: url('./assets/iphone15.jpg');
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.pak2 {
+    color: white;
+    padding-top: 15px;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+
+.h1 {
+    font-size: 60px;
+}
+
+.h5 {
+    font-size: 25px;
+}
+
+.box-3 {
+    background-image: url('./assets/iphone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.pak3 {
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px ;
+    margin-left: 450px;
+}
+.downdivs{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.downdivs a {
+    font-size: 18px;
+}
+.downdivs p {
+    font-size: 23px;
+    font-weight: 500;
+}
+.box-4 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak4 {
+    background-image: url('./assets/promo_apple_vision_pro_avail__gnjm0cdaluq2_large.jpg');
+    background-repeat: no-repeat;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.vision{
+    margin-left: 40px;
+    padding-top: 400px;
+}
+
+.box-5 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak5 {
+    background-image: url('./assets/airpods.jpg');
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.airpod{
+    padding-top: 25px;
+    color: white;
+}
+.airpod p{
+    padding-top: 5px;
+}
+.box-6 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak6 {
+    background-image: url('./assets/ipad.jpg');
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.ipad{
+    padding-top: 25px;
+}
+
+.box-7 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak7 {
+    background-image: url('./assets/watch.jpg');
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.watch{
+    padding-top: 25px;
+}
+.watch p{
+    color: white;
+}
+
+.box-8 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak8 {
+    background-image: url('./assets/tile__cauwwcyyn9hy_large.jpg');
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.card{
+    padding-top: 25px ;
+}
+.box-9 {
+    width: 655px;
+    height: 580px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pak9 {
+    background-image: url('./assets/tradein.jpg');
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    background-position: center;
+    width: 655px;
+    height: 580px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.trade{
+    padding-top: 30px;
+}
+
+.container {
+    text-align: justify;
+    position: relative;
+    max-width: 1000px;
+    margin-left: 160px;
+    padding:30px;
+    font-size: 0.85rem ;
+    color: #0000008F;
+    flex-wrap: wrap;   
+}
+.container a{
+    font-size: 0.85rem !important;
+    color: #0000008F !important;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -30px !important;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+.line{
+    color: gainsboro !important;
+}
+ul{
+    margin-top: 20px;
+    cursor: pointer;
+}
+ul h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+ul a {
+    display: block;
+    font-size:13px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #0000008F !important;
+}
+ul h2{
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.end{
+    margin-left: 185px;
+    margin-top: 40px;
+}
+.end a{
+    text-decoration:underline;
+    font-size: 13px;
+}
+.end p{
+    color: #0000008F !important;
+    font-size: 13px;
+}
+.end2{
+    margin-left: 185px;
+    margin-top: 2px;
+    font-size: 13px;
+    color: gainsboro !important;
+}
+.end3{
+    margin-left: 185px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #0000008F !important;
+}
